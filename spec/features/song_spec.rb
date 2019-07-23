@@ -70,10 +70,10 @@ describe 'index' do
     @song = Song.create(name: "My Song", artist_id: @artist.id, genre_id: @genre.id)
   end
 
-  it 'displays the song name' do
-    visit songs_path
-    expect(page).to have_css("p", text: "My Song")
-  end
+  # it 'displays the song name' do
+  #   visit songs_path
+  #   expect(page).to have_css("p", text: "My Song")
+  # end
 
   
 end
