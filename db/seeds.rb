@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# If we wanted to seed the database
+# genres = Genre.create([{name: "Rock"}, {name: "Rap"}, {name: "Pop"}])
+# And then run db:seed
